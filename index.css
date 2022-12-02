@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+:root{
+    --primary-color:red;
+}
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* rem tells about the font size of the root elemnt*/
+.container{
+    padding-left: 1rem; 
+    padding-right: 1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+.link{
+    text-decoration: none;
+   
+}
+.link1{
+    text-decoration: none;
+    padding-left: 0.5rem;  /*1rem=16px*/
+    padding-right: 1rem;
+    background-color: cadetblue;
+    border-radius: 0.5rem;
+    color: beige;
+   border: 1px solid;
+}
+.link2{
+    text-decoration: none;
+    padding-left: 0.5rem;  /*1rem=16px*/
+    padding-right: 1rem;
+    background-color: cadetblue;
+    border-radius: 0.5rem;
+    color: beige;
+}
+.non-bullet{
+    list-style: none;
+}
+.inline-list{
+     display: inline;
+     padding-left: 0.5rem;
+     padding-right: 1rem;
+}
+.navigation{
+    background-color: aquamarine;
+}
+.non-bullet{
+    margin-left: 95px;
+}
+.navbrand{
+    font-weight: 800;
+    
+}
